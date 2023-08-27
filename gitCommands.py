@@ -61,4 +61,6 @@
 #                                           git checkout -b {branch name}
 #command: git checkout -b {branch name} it will create a new branch and change your branch to it
 #
+#                                           git checkout {branch name}
+#command: git checkout {branch name} it will change your current branch to the existing branch
 #
