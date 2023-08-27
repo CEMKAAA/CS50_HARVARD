@@ -11,7 +11,7 @@
 #command: git commit -m "message to send with commit". we sent our changed file to our local repository that we have created with git init
 #
 #                                                    git status
-#command: this command will inform you if there is some unadded changes inside your files
+#command: this command will inform you if there is some unadded changes inside your files in conclusion it will inform you about unmade changes
 #
 #                                                    git remote -v
 #command: git remote -v. this command will show you the online repositories that you want to push your code if there is empty than your pushes will not work because you still dont set online repository to push your codes
@@ -25,3 +25,14 @@
 #
 #                                                 remote add {online repository name}
 #command: git remote add {branch_name} {https url of the git hub repository} this will open a repository in git hub online
+#
+#                                              pull {online repository name} {online branch name}
+#command: git pull origin master. if online repositories desired branch includes a file that you don`t have in your local environment than you can easily pull from the online repository and get the unexisting files in order to push your changes otherwise you will not be able to make changes since online repository includes a file that your local system does not.
+#
+#                                                  git commit -am "message"
+#command: git commit -am "message". with this code without making git add . and then git commit -m "message" this command will allow you to do this both command into just one command git commit -am "message" tadaaaa
+#
+#                                                  Merge Conflicts
+#
+#
+#
