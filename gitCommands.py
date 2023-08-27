@@ -64,3 +64,8 @@
 #                                           git checkout {branch name}
 #command: git checkout {branch name} it will change your current branch to the existing branch
 #
+#                        git push -u origin {branch name that will be created at the online repository}
+#command: git push -u origin {name of the repository that will be created}. with this code we are able to create new branch at our online repository
+#
+#
+#
