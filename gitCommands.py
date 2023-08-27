@@ -33,6 +33,13 @@
 #command: git commit -am "message". with this code without making git add . and then git commit -m "message" this command will allow you to do this both command into just one command git commit -am "message" tadaaaa
 #
 #                                                  Merge Conflicts
-#
-#
-#
+#Now here is the conflict scenerio you have made a change at one file and another person made a change at the same file when you try to pull the project from online repository the git`s system will ask you do you want to get what this another man recently changed or do you want to keep your changes or do you want to merge this two changes this is completely on you
+# 
+#                                         Here is how git system informs abput the conflict
+#        Your changes 
+#        <h1>Welcome to my website!!</h1>
+#=======
+#        Other person`s changes         
+#       <h1 style="color: red; text-align:center;font-family: Arial; font-weight: bold;">Welcome to my website</h1>
+#>>>>>>> 40a706f380ef3dd6b70bdb32cd90d3ea37fe49bd
+#        At this point it is completely on you to decide whether to keep your changes or get the changes that other person has made or you can merge them
